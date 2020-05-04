@@ -805,18 +805,29 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
   }
   header nav {
     width:80%;
-    height:100%;
+    height:auto;
     left:-100%;
+    padding: 5px 0 20px;
     margin:46px 0;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
   }
-
+   header nav img{
+    width: 50px;
+   }
+   header nav ul{
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+   }
   header nav ul li {
     display:block;
     float:none;
-    padding-top: 50px;
-    border-bottom:1px solid rgba(255,255,255, .3);
+    padding-top: 10px;
+    margin: 0;
+    border-bottom:1px double rgba(255,255,255, .3);
+    width: 100%;
   }
   header nav .logo{
     display: none;
