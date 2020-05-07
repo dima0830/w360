@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 h1, h2, h3, h4 {
-  font-family: 'Roboto', ;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 body {
   background:#FFFFFA;
-  font-family: 'Open Sans',;
-  overflow-x: hidden;
+  font-family: 'Asap', sans-serif;
+ overflow-x: hidden;
 }
 .form-control {
   border: 1px solid #fff;
@@ -14,7 +14,7 @@ body {
   margin-bottom: 20px;
   color: #8A8A8A;
   font-size: 12px;
-  font-family: 'Roboto', ;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
 }
 .espc{
@@ -41,13 +41,13 @@ header {
   width:100%;
 }
 header .logo{
-  padding:10px 20px;
+  padding:8px 20px;
   display: block;
 }
 header nav {
   position: fixed;
   width:100%;
-  background:rgba(0, 0, 0, 0.2);
+  background:rgba(0, 0, 0, 0.9);
 background-image: url("https://www.transparenttextures.com/patterns/dark-wall.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   padding: 0;
@@ -66,10 +66,10 @@ header nav ul li {
   display: inline-block;
 }
 header nav ul li a {
-  font-family: 'Roboto', ;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   color:#fff;
-  padding:15px 20px;
+  padding:10px 20px;
   display:block;
   text-decoration:none;
 }
@@ -77,177 +77,179 @@ header nav ul li a:hover {
   color:#EA6F2A;
   text-decoration:none;
 }
-.espacio-b{
-  padding: 22px;
-  display: none;
-}
-.alto{
-  bottom: 80px !important;
-}
-.alto-1{
-  bottom: 50px !important;
-}
-.alto2{
-  bottom: 70px;
-  text-align: right !important;
-}
-.alto3{
-  bottom: 70px;
-  text-align: left !important;
-}
-/* titulo =================*/
-.s-t1{
-  font-size: 80px;
-  margin: 0;
-}
-.s-sub1{
-  font-size: 30px;
-  margin: 0;
-}
-.s-t2{
-  font-size: 40px;
-  margin: 0;
-  color: #151517;
-  line-height: 1;
-}
-.s-sub2{
-  font-size: 20px;
-  margin: 0;
-  line-height: 1;
-}
-.s-t3{
-  font-size: 60px;
-  margin: 0;
-  line-height: 1;
-  display: inline-block;
-}
-.s-sub3{
-  text-align: right;
-  font-size: 25px;
-  margin: 0;
-  line-height:1;
-}
-.s-t4{
-  font-weight: 500;
-  font-size: 45px;
-  color: #000;
-  margin: 0;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-}
-.s-sub4{
-  font-weight: 500;
-  display: inline-block;
-  font-size: 20px;
-  margin: 0;
-  line-height:1;
-  text-align: center;
-  color: #fff;
-}
-.s-t5{
-  font-weight: 500;
-  font-size: 60px;
-  margin: 0;
-  color: #fff;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-}
-.s-sub5{
-  font-weight: 500;
-  display: inline-block;
-  font-size: 35px;
-  margin: 0;
-  line-height:1;
-  text-align: center;
-}
-/* consultoria*/
-.box-t{
-  position: relative;
-  margin-top: -60px;
-  background-color:#EDEEFF;
-   -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-  padding: 30px;
-  margin-bottom: 0;
-  border-top: 3px solid #C96A2B;
-}
 
-.equal {
+.parallax-bnr {
+  position: relative;
+}
+.parallax-bnr  .bnr-wrapper {
+  white-space: nowrap;
+  overflow: hidden;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  padding: 0;
-  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
-.equal .este {
-  flex:1 1 auto;
-  background-color:#EDEEFF;
-  display: flex;
-}
-.equal .este form{
-  display: block;
-  margin: 30px auto;
-}
-.cbllo{
+.parallax-bnr  .bn{
   background-size: cover;
-  background-position: center;
-  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: inline-block;
   width: 100%;
-  height: 100%;
+  height: 435px;
+  flex-shrink: 0;
+  transition: 0.9s ease-in-out transform;
+  backface-visibility: hidden;
 }
-.pri{
-  background-image: url(../img/img-consultoria.jpg);
+.parallax-bnr .bn-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  }
+   .parallax-bnr ol {
+    display: inline-block;
+  }
+ .parallax-bnr .bn-indicator li {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background: #000;
+  }
+.parallax-bnr .bn-indicator li:hover {
+  background: rgba(201, 106, 43, 1);
 }
-.seg{
-  background-image: url(../img/nosotros.jpg);
+.parallax-bnr .bn-indicator li.active {
+  background: rgba(201, 106, 43, 1);
 }
-.tcolsul{
+.parallax-bnr  .bn::before {
+  content: '';
+  display: inline-block;
+  height: 50%;
+}
+.parallax-bnr  .content {
+  display: inline-block;
+  width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  white-space: normal;
   color: #fff;
-  font-size: 65px;
-  font-weight: 700;
-  padding-top: 20px;
+  transform: translate(-5px);
 }
-.boton_fondo_corredizo_base {
- display: block;
- width: 100%;
- height: calc(1.5em + .75rem + 2px);
- padding: .375rem .75rem;
- background-color: #C96A2B;
- color: #fff;
- font-size: 12px;
- font-family: 'Roboto', ;
- font-weight: 500;
- text-align: center;
- border: 0;
- -webkit-transition: all ease 1s;
- -moz-transition: all ease 1s;
- transition: all ease 1s;
-
+.parallax-bnr  .caption {
+  padding: 20px;
+  transition: 0.4s;
+  transition-delay: 0.8s;
+  opacity: 0;
+  transform: translatey(200%);
+  background: rgba(0, 0, 0, 0.2);
 }
-
-.boton_fondo_corredizo_izquierda:hover {
-  box-shadow: inset 340px 0 0 0 #BC4808;
+ .parallax-bnr  .caption h1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+.parallax-bnr  .bn-active .caption {
+  transform: translatey(0);
+  opacity: 1;
+}
+.parallax-bnr  .bn1 {
+  background: url("../img/slider1.jpg") top center;
+}
+.parallax-bnr  .bn2 {
+  background: url("../img/slider2.jpg") top center;
+}
+.parallax-bnr  .bn3 {
+  background: url("../img/slider3.jpg") top center;
+}
+.parallax-bnr  .bn4 {
+  background: url("../img/slider4.jpg") top center;
+}
+.parallax-bnr  .bn5 {
+  background: url("../img/slider5.jpg") top center;
+}
+.espacio-b{
+  padding: 22px;
+  display: none;
+}
+/* titulo =================*/
+.txt1 {
+  font-size: 25px;
+}
+/* consultoria*/
+.box-t{
+  padding: 0 0 0 40px;
+}
+.box-1{
+  padding: 10px;
+}
+.boton{
+  position: relative;
+  display: block;
+  padding: 14px 40px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 320px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  color:#fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: all ease 0.5s;
+  background:#e36a20;
+}
+ 
+.boton:after,
+.boton:before{
+  width: 80px;
+  height: 200px;
+  content: '';
+  display: block;
+  background: rgba(227,106,32,0.5);
+  transform: rotate(45deg);
+  top: -60px;
+  position: absolute;
+  transition: none;
+  right:-45%;
+  cursor: pointer;
+}
+.boton:before{
+  left: -48%;
+}
+.boton:hover{
+  text-shadow: 0 1px 1px rgba(168,71,8,0.5);
+  background:#606060;
+  color: #fff;
+  text-decoration: none;
+}
+.boton:hover:after,
+.boton:hover:before{
+  transform: rotate(45deg), scaleX(130%);
+  background: rgba(168,71,8,0.1);
+  transition: all ease 0.5s;
+}
+.boton:hover:after{
+  right: 130%;
+}
+.boton:hover:before{
+  left: 130%;
 }
 .pnaranja{
+  font-family: 'Lato', sans-serif;
   margin-top: 30px;
-  font-size: 19px;
-  text-align: center;
+  font-size: 26px;
+  line-height: 1.2;
   color: #C96A2B;
-  font-weight: 300;
 }
 .p-t{
-  margin: 8px auto;
+  margin: 30px 0;
   font-size: 19px;
-  text-align: center;
   font-weight: 300;
-  width: 60%;
 }
 .parallx1 {
   background-color: rgba(0, 0, 0, 0.8);
@@ -495,29 +497,35 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
 .t-nombre span{
   color: #000;
 }
-.box-naranja{
-  background-color: #C96A2B;
-}
 
-/* Carrusel de libros */
-.sliderlogo {
+/* Carrusel de logos2 */
+.sliderlogo, .sliderlogo2{
   margin: 10px 0 0;
   padding:5px auto;
 }
-.sliderlogo .onelogo {
+.sliderlogo .onelogo, .sliderlogo2 .onelogo {
   padding: 2px 15px;
   text-align: center;
 }
-.sliderlogo .slick-arrow {
-  width: 37px;
-  height: 48px;
+
+.sliderlogo .onelogo{
+  padding: 10px 30px;
+  margin: 10px;
+  text-align: center;
 }
-.sliderlogo .slick-prev {
-  left: 50px;
+
+.sliderlogo .slick-arrow, .sliderlogo2 .slick-arrow{
+  width: 15px;
+  height: 19px;
+  margin: 0;
+}
+.sliderlogo .slick-prev{
+  left: 10px;
   background-image: url(../img/icon-back.png);
+  z-index: 9999;
 }
 .sliderlogo .slick-next {
-  right: 50px;
+  right: 10px;
   background-image: url(../img/icon-right.png);
 }
 /* fin Carrusel de logos */
@@ -676,11 +684,9 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
   opacity: 1;
 }
 
-
-
 .box-n {
   background-color: #000;
-  padding: 20px;
+  padding:8px 0 5px 0;
   margin: 0;
   text-align: center;
   color: #fff;
@@ -810,16 +816,17 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
     padding: 5px 0 20px;
     margin:46px 0;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #000;
   }
    header nav img{
-    width: 50px;
+    display: none;
    }
    header nav ul{
     padding: 0;
     display: block;
     width: 100%;
     margin: 0;
+    background-color: #000;
    }
   header nav ul li {
     display:block;
@@ -844,7 +851,7 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
     z-index: 9999;
     display:block;
     padding:5px 20px;
-    background:#C96A2B;
+    background:#000;
     color:#fff;
     text-decoration:none;
     font-weight: bold;
@@ -859,11 +866,12 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
     margin-top: -10px;
   }
   .menu_bar i{
+    color: #C96A2B;
     margin-top: 5px;
     float:right;
     font-size:25px;
   }
-   
+ 
 }
 
 /*styles for mobile ==============================================Estilos todos======0=0*/
@@ -872,27 +880,33 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
   .espc{
   padding: 1em;
 }
-
+ .txt1 {
+  font-size: 20px;
+}
+ .parallax-bnr  .caption h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+   
 /* consultoria*/
 .box-t{
-  margin-top: -10px;
+ padding: 0 15px;
 }
 .consultoria{
   margin-top: -10px;
 }
-.equal .este form{
-  margin: 30px 15px;
-}
-.tcolsul{
-  font-size: 20px;
-  padding-top: 20px;
-  margin-bottom: 50px;
+.sinimg{
+  display: none;
 }
 .pnaranja{
-  padding: 0 20px;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
 }
 .p-t{
   width: 90%;
+  text-align: center;
+  margin: 0 auto;
 }
 .cita{
   padding: 30px 0;
@@ -937,75 +951,50 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
   padding: 2px 15px;
   text-align: center;
 }
-
+.box-gene{
+  padding: 20px 55px;
+  margin: 5px auto;
+}
+.box-gene p{
+  font-size: 16px;
+}
+.box-gene p br{
+  display: none;
+}
+.tincidunt-sobre{
+  margin-top: 20px;
+  font-weight: bold;
+}
 /* =================================*/
 }
 @media (min-width: 768px) and (max-width: 991px) {
  .espc{
   padding: 1em;
 }
-.alto{
-  bottom: 50px !important;
-}
-.alto-1{
-  bottom: 40px !important;
-}
-.alto2{
-  bottom: 40px;
-  text-align: right !important;
-}
-.alto3{
-  bottom: 40px;
-  text-align: left !important;
-}
-/* titulo =================*/
-.s-t1{
-  font-size: 40px;
-}
-.s-sub1{
-  font-size: 20px;
-}
-.s-t2{
-  font-size: 24px;
-}
-.s-sub2{
-  font-size: 20px;
-}
-.s-t3{
-  font-size: 25px;
-}
-.s-sub3{
-  font-size: 20px;
-}
-.s-t4{
-  font-size: 25px;
-}
-.s-sub4{
-  font-size: 20px;
-}
-.s-t5{
-  font-size: 20px;
-}
-.s-sub5{
-  font-size: 25px;
-}
 /* consultoria*/
 .consultoria{
   margin-top: -30px;
 }
-.equal .este form{
-  margin: 30px 20px;
+.box-gene{
+  padding: 20px 55px;
+  margin: 8px auto;
 }
 .tcolsul{
   font-size: 30px;
   padding-top: 20px;
   margin-bottom: 50px;
 }
+.sinimg{
+  display: none;
+}
 .pnaranja{
   padding: 0 20px;
+  text-align: center;
 }
 .p-t{
   width: 90%;
+  text-align: center;
+  margin: 0 auto;
 }
 .cita{
   padding: 40px 15px;
