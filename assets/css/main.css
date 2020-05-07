@@ -202,6 +202,7 @@ header nav ul li a:hover {
   text-decoration: none;
   transition: all ease 0.5s;
   background:#e36a20;
+  margin: 0 auto;
 }
  
 .boton:after,
@@ -953,11 +954,15 @@ div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subs
   text-align: center;
 }
 .box-gene{
-  padding: 20px 55px;
+  display: block;
+  padding: 20px 0;
   margin: 5px auto;
+  width: 100%;
 }
 .box-gene p{
   font-size: 16px;
+  display: block;
+  width: 250px;
 }
 .box-gene p br{
   display: none;
