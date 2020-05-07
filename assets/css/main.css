@@ -344,6 +344,7 @@ header nav ul li a:hover {
   display: block;
   text-decoration: none;
   color: #fff;
+  width: 100%;
 }
 .box-gene p{
   font-weight: 700;
