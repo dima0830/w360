@@ -383,6 +383,7 @@ div#content, div#content2, div#content3, div#content4 {
   width: 100%;
   cursor: pointer;
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100%;
 }
 .style-2::-webkit-scrollbar-track
@@ -413,10 +414,26 @@ input#hide:checked ~ div#content,input#hide2:checked ~ div#content2, input#hide3
 }
 /* fin ejemplo */
 /* contenidos bos gris */
-div#content .chica, div#content2 .chica, div#content3 .chica, div#content4 .chica {
-  width: 45px;
+.icon-servicios{
+  display: block;
+  width: 100%;
+}
+.box-chica-subsm {
+  padding: 6px;
+  text-align: left;
+}
+.chica {
+  width: 50px;
   height: auto;
-  display: inline-block;
+}
+.subsm{
+  text-align: left;
+  font-weight: 500;
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-top: 3px;
 }
 div#content p, div#content2 p, div#content3 p, div#content4 p {
   display: block;
@@ -427,15 +444,7 @@ div#content p, div#content2 p, div#content3 p, div#content4 p {
   padding: 5px;
   margin-top: 15px;
 }
-div#content .subsm, div#content2 .subsm, div#content3 .subsm, div#content4 .subsm {
-  font-weight: 500;
-  display: inline-block;
-  color: #fff;
-  font-size: 12px;
-  line-height: 1.5;
-  padding-top: 3px;
-  position: absolute;
-}
+
 
 
 /* testimonios */
