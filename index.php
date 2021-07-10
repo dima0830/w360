@@ -158,7 +158,7 @@
 </div>
 
 <span class="espc"></span>
-<div class="container">
+<!--<div class="container">
 	<div class='animatedParent' data-sequence='500'>
 		<div class="row box" style="padding: 0; margin: 0;">
 			<div class="col-sm-6">
@@ -194,7 +194,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
 </section>
 
 <section id="servicios" class="sect-content">
